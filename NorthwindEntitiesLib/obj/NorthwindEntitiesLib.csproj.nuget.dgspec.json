@@ -46,6 +46,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.6, )"
@@ -53,6 +54,11 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[5.0.6, )"
+=======
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+>>>>>>> f3b0d25a1e7a038bf6add781dc18129444f3b305
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
