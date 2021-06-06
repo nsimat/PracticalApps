@@ -5,7 +5,7 @@ using NorthwindEntitiesLib.Entities;
 
 #nullable disable
 
-namespace NorthwindEntitiesLib.Entities
+namespace NorthwindContextLib
 {
     public partial class Northwind : DbContext
     {
