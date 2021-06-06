@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "NorthwindEntitiesLib"
+		},
+		{
+			"path": "NorthwindContextLib"
 		}
 	],
 	"settings": {}

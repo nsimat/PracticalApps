@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace NorthwindEntitiesLib.Entities
 {
-    [Index(nameof(CategoryId), Name = "CategoriesProducts")]
-    [Index(nameof(CategoryId), Name = "CategoryID")]
+    [Index(nameof(CategoryID), Name = "CategoriesProducts")]
+    [Index(nameof(CategoryID), Name = "CategoryID")]
     [Index(nameof(ProductName), Name = "ProductName")]
-    [Index(nameof(SupplierId), Name = "SupplierID")]
-    [Index(nameof(SupplierId), Name = "SuppliersProducts")]
+    [Index(nameof(SupplierID), Name = "SupplierID")]
+    [Index(nameof(SupplierID), Name = "SuppliersProducts")]
     public partial class Product
     {
         public Product()
