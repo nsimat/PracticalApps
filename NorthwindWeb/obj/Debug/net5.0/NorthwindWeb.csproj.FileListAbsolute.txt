@@ -71,3 +71,4 @@ C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindContextLib
 C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEntitiesLib.dll
 C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindContextLib.pdb
 C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEntitiesLib.pdb
+C:\myprojects\C#\PracticalApps\NorthwindWeb\obj\Debug\net5.0\Razor\Pages\newFournisseur.cshtml.g.cs

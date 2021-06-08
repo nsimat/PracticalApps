@@ -1,29 +1,28 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
-using NorthwindEntitiesLib.Entities;
 using NorthwindContextLib;
+using NorthwindEntitiesLib.Entities;
+using System.Linq;
 
 namespace NorthwindWeb.Pages
 {
-    public class FournisseursModel : PageModel
+    public class NewFournisseurModel : PageModel
     {
         private Northwind dbCtxt;
+
         [BindProperty]
         public Supplier Supplier { get; set; }
 
-        public FournisseursModel(Northwind injectedContext)
+        public NewFournisseurModel(Northwind injectedContext)
         {
             dbCtxt = injectedContext;
         }
-        public IEnumerable<Supplier> Fournisseurs { get; set; }
 
         public void OnGet()
         {
-            ViewData["Title"] = "Northwind Web Site - Fournisseurs";
-
-            Fournisseurs = dbCtxt.Suppliers.Where(s => s.Fax != null);
+            ViewData["Title"] = "Northwind Web Site - Nouveau fournisseur";
+            Supplier = new Supplier();
         }
 
         public IActionResult OnPost()
@@ -32,7 +31,7 @@ namespace NorthwindWeb.Pages
             {
                 dbCtxt.Suppliers.Add(Supplier);
                 dbCtxt.SaveChanges();
-                return RedirectToPage("/suppliers");
+                return RedirectToPage("/fournisseurs");
             }
             return Page();
         }

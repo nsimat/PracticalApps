@@ -1,16 +1,31 @@
 @page
 @model NorthwindWeb.Pages.FournisseursModel
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers;
 <div class="row">
     <h1 class="display-2">Fournisseurs</h1>
     <table class="table">
         <thead class="thead-inverse">
-            <tr><th>Nom de compagnie</th></tr>
+            <tr>
+                <th>Nom de compagnie</th>
+                <th>Personne de contact</th>
+                <th>Son titre</th>
+                <th>Adresse</th>
+            </tr>
         </thead>
         <tbody>
-            @foreach (string name in Model.Fournisseurs)
+            @foreach (var fournisseur in Model.Fournisseurs)
             {
-                <tr><td>@name</td></tr>
+                <tr>
+                    <td>@fournisseur.CompanyName</td>
+                    <td>@fournisseur.ContactName</td>
+                    <td>@fournisseur.ContactTitle</td>
+                    <td>@fournisseur.Address</td>
+                </tr>
             }
         </tbody>
     </table>
+    <p>
+        <a class="btn btn-primary" href="newFournisseur">Créez un nouveau fournisseur</a>
+    </p>    
+
 </div>

@@ -1,0 +1,51 @@
+@page
+@model NorthwindWeb.Pages.NewFournisseurModel
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Données pour un nouveau fournisseur</h2>
+<form action="" method="POST">
+    <h3></h3>
+    <div class="form-group">
+        <label>Nom de la compagnie: </label>
+        <input type="text" asp-for="Supplier.CompanyName" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Personne de contact: </label>
+        <input type="text" asp-for="Supplier.ContactName" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Titre de la personne: </label>
+        <input type="text" asp-for="Supplier.ContactTitle" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Adresse: </label>
+        <input type="text" asp-for="Supplier.Address" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Nom de la ville: </label>
+        <input type="text" asp-for="Supplier.City" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Region: </label>
+        <input type="text" asp-for="Supplier.Region" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Code Postal: </label>
+        <input type="text" asp-for="Supplier.PostalCode" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Pays: </label>
+        <input type="text" asp-for="Supplier.Country" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Numéro de téléphone: </label>
+        <input type="text" asp-for="Supplier.Phone" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Numéro de Fax: </label>
+        <input type="text" asp-for="Supplier.Fax" class="form-control">
+    </div>
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Créer nouveau fournisseur" />
+    </div>
+</form>
