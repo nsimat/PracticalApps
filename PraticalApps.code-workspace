@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "NorthwindContextLib"
+		},
+		{
+			"path": "NorthwindEmployees"
 		}
 	],
 	"settings": {}
