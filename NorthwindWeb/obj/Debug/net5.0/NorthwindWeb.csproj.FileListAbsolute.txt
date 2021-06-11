@@ -72,3 +72,8 @@ C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEntitiesLi
 C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindContextLib.pdb
 C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEntitiesLib.pdb
 C:\myprojects\C#\PracticalApps\NorthwindWeb\obj\Debug\net5.0\Razor\Pages\newFournisseur.cshtml.g.cs
+C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.Views.dll
+C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.Views.pdb
+C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.dll
+C:\myprojects\C#\PracticalApps\NorthwindWeb\bin\Debug\net5.0\NorthwindEmployees.pdb
+C:\myprojects\C#\PracticalApps\NorthwindWeb\obj\Debug\net5.0\NorthwindWeb.MvcApplicationPartsAssemblyInfo.cs

@@ -106,6 +106,9 @@
             "projectReferences": {
               "C:\\myprojects\\C#\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj": {
                 "projectPath": "C:\\myprojects\\C#\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj"
+              },
+              "C:\\myprojects\\C#\\PracticalApps\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj": {
+                "projectPath": "C:\\myprojects\\C#\\PracticalApps\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj"
               }
             }
           }

@@ -17,7 +17,6 @@ C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\scopedcss\bun
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.TagHelpers.input.cache
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.TagHelpers.output.cache
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.RazorCoreGenerate.cache
-C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\MyFeature\Pages\Page1.cshtml.g.cs
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.RazorTargetAssemblyInfo.cache
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.RazorTargetAssemblyInfo.cs
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\NorthwindEmployees.Views.pdb
@@ -29,3 +28,6 @@ C:\myprojects\C#\PracticalApps\NorthwindEmployees\bin\Debug\net5.0\NorthwindCont
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\bin\Debug\net5.0\NorthwindEntitiesLib.dll
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\bin\Debug\net5.0\NorthwindContextLib.pdb
 C:\myprojects\C#\PracticalApps\NorthwindEmployees\bin\Debug\net5.0\NorthwindEntitiesLib.pdb
+C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\PacktFeatures\Pages\employees.cshtml.g.cs
+C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\PacktFeatures\Pages\Shared\_Employee.cshtml.g.cs
+C:\myprojects\C#\PracticalApps\NorthwindEmployees\obj\Debug\net5.0\Razor\Areas\PacktFeatures\Pages\_ViewStart.cshtml.g.cs

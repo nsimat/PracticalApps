@@ -7297,7 +7297,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "NorthwindContextLib >= 1.0.0"
+      "NorthwindContextLib >= 1.0.0",
+      "NorthwindEntitiesLib >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7337,6 +7338,9 @@
           "projectReferences": {
             "C:\\myprojects\\C#\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj": {
               "projectPath": "C:\\myprojects\\C#\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib.csproj"
+            },
+            "C:\\myprojects\\C#\\PracticalApps\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj": {
+              "projectPath": "C:\\myprojects\\C#\\PracticalApps\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj"
             }
           }
         }
