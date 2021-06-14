@@ -21,6 +21,7 @@ namespace NorthwindEmployees.PacktFeatures.Pages
         public IEnumerable<Employee> Employees { get; set; }
         public void OnGet()
         {
+          ViewData["Title"] = "Northwind Web Site - Employés";
           Employees = dbCtxt.Employees.ToArray();
         }
     }

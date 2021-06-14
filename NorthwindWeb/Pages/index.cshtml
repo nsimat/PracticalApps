@@ -5,7 +5,7 @@
 
     public void OnGet()
     {
-        ViewData["Title"] = "Northwind Website";
+        ViewData["Title"] = "Northwind Website - Accueil";
 
         Model.DayName = DateTime.Now.ToString("dddd");
     }
@@ -17,15 +17,13 @@
         <p class="lead">Nous fournissons des produits à nos fournisseurs.</p>
         <hr class="my-4" />
         <p>C'est @Model.DayName! Parmi nos clients, nous avons des restaurants, des hôtels et des lignes croisières.</p>
-        <p>
-            <a class="btn btn-primary btn-lg" href="fournisseurs" role="button">
-                En savoir plus sur nos fournisseurs
+        <div class="text-center">
+            <a class="btn btn-primary" href="fournisseurs" role="button">
+                Plus sur nos fournisseurs
             </a>
-        </p>
-        <p>
             <a class="btn btn-primary" href="packtfeatures/employees">
                 Contacter nos employés
             </a>
-        </p>
+        </div>
     </div>
 </div>

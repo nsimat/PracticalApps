@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -47,6 +48,22 @@ namespace NorthwindWeb
             }
 
             app.UseRouting();
+            app.Use(async (HttpContext context, Func<Task> next) => 
+            {
+                var rep = context.GetEndpoint() as RouteEndpoint;
+                if(rep != null)
+                {
+                    Console.WriteLine($"Endpoint name: {rep.DisplayName}");
+                    Console.WriteLine($"Endpoint route pattern: {rep.RoutePattern.RawText}");
+                }
+
+                if(context.Request.Path == "/bonjour")
+                {
+                    await context.Response.WriteAsync("Bonjour Monde!");
+                    return;
+                }
+                await next();
+            });
             app.UseHttpsRedirection();
             app.UseDefaultFiles();
             app.UseStaticFiles();
