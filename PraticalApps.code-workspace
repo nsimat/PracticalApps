@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "SimpleWeb"
+		},
+		{
+			"path": "NorthwindMvc"
 		}
 	],
 	"settings": {}
